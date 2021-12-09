@@ -1,0 +1,80 @@
+Adicionar SSH
+https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
+https://help.github.com/pt/enterprise/2.15/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+Incluir .gitignore (https://github.com/github/gitignore)
+git init
+Untracked -> Staged ->Commited
+
+git config --global user.name "Pedro"
+git config --global user.email "pedrobosman@hotmail.com"
+git config --global user.name
+git config --list
+git config --global alias.s status
+
+git status
+
+git diff
+git diff --nsame-only (arquivos modificados)
+
+git log
+git log --oneline
+git log --decorate
+git log --author = "Pedro"
+git shortlog
+git shortlog -sn
+git log --graph
+
+git show <HASH -> do commit>
+
+git add .
+
+git commit -m "Descrição"
+git commit -am "Descrição"
+
+git clean -df
+git checkout -- .
+
+git reset HEAD <arquivo>
+git reset --soft/mixed/hard <CODIGO HASH>
+git reset --soft HEAD~1
+git reset --hard HEAD~1
+
+git checkout <código do commit>
+git checkout <arquivo>
+git checkout <nome do branch>
+git checkout -b 'New branch'
+
+git remote add origin <URL do Repo Remoto>
+git remote set-url origin <URL do Repo Remoto>
+
+git push -u origin master
+git push origin master --tags
+git push origin : <versao>
+git push origin : <branch>
+git push
+
+git clone <URL do Repo Remoto>
+
+git pull origin master
+
+git branch
+git branch -D 'NomeDoBranch'
+
+git merge <nome do branch>
+
+git rebase <nome do branch>
+
+git stash
+git stash apply
+git stash list
+git stash clear
+
+git tag -a 1.0.0 -m "Descrição"
+git tag
+git tag -d <versao>
+
+git revert <CODIGO HASH>
+
+--> Fork -> Contribuir com repositorios publicos
+Igual ao clone porém é para contribuir com repositórios que não são seus
