@@ -8,8 +8,8 @@ Incluir .gitignore (https://github.com/github/gitignore)
 git init
 Untracked -> Staged ->Commited
 
-git config --global user.name "Pedro"
-git config --global user.email "pedrobosman@hotmail.com"
+git config --global user.name "Zumba"
+git config --global user.email "francisco.zumba@ee.ufcg.edu.br"
 git config --global user.name
 git config --list
 git config --global alias.s status
